@@ -118,6 +118,6 @@ class CMakeBuild(build_ext):
         )
 
 setup(
-    ext_modules=[CMakeExtension("prj._C", sourcedir=".")],
+    ext_modules=[CMakeExtension("textok._C", sourcedir=".")],
     cmdclass={"build_ext": CMakeBuild},
 )

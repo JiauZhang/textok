@@ -2,7 +2,7 @@
 
 namespace nb = nanobind;
 
-namespace pyprj {
+namespace pytextok {
 
 NB_MODULE(_C, m) {
 }

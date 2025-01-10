@@ -10,7 +10,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "prj"
+name = "textok"
 dynamic = ["version"]
 description = ""
 readme = "README.md"
@@ -31,13 +31,13 @@ requires-python = ">= 3.8"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/jiauzhang/prj"
+Homepage = "https://github.com/jiauzhang/textok"
 
 [tool.setuptools]
 package-dir = {"" = "python"}
 
 [tool.setuptools.dynamic]
-version = {attr = "prj.__version__"}
+version = {attr = "textok.__version__"}
 
 [tool.pytest.ini_options]
 minversion = "8.0"

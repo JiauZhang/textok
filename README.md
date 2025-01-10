@@ -1,6 +1,6 @@
 ### Install
 ```shell
-pip install prj
+pip install textok
 ```
 
 ### Sponsor
